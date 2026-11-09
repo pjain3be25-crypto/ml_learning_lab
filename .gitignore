@@ -1,0 +1,23 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter transient files
+.ipynb_checkpoints/
+
+# Local/raw extracted data
+shots_2015_16.csv
+data/
+
+# Local environment/configuration and OS files
+.env
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

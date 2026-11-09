@@ -1,0 +1,22 @@
+{
+    "model": "Logistic Regression",
+    "dataset": "Statsbomb Open Data - Premier League 2015/16",
+    "training_shots": 9908,
+    "features": [
+        "distance_to_goal",
+        "shot_angle",
+        "central_lane_blockers",
+        "goal_mouth_triangle_blockers",
+        "goalkeeper_distance",
+        "goalkeeper_angle",
+        "body_part",
+        "shot_type"
+    ],
+    "evaluation_metrics": {
+        "ROC-AUC": 0.774743492609762,
+        "Brier Score": 0.07947198291002676,
+        "Log Loss": 0.28033168849176954
+    },
+    "test_shots": 2026,
+    "test_matches": 76
+}
